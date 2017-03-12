@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<network name="user1" port="/dev/tty.usbserial-A100eNS8" LightSensor="46" LEDMatrix="128" LightColor="RED"/>
+</config>

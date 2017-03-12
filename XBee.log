@@ -1,0 +1,7 @@
+[2011-12-01 21:22:15,586] [InputStreamThread] [ERROR] [com.rapplogic.xbee.api.PacketParser] Failed due to exception.  Returning ErrorResponse.  bytes read: 0x00,0x0d,0x81,0x33,0x20,0x37,0x00,0x2d,0x31,0x20,0x7e,0x00,0x06,0x88,0x01,0x41 
+com.rapplogic.xbee.api.XBeeParseException: Checksum is incorrect.  Expected 0xff, but got 215
+	at com.rapplogic.xbee.api.PacketParser.read(PacketParser.java:261)
+	at com.rapplogic.xbee.api.PacketParser.read(PacketParser.java:185)
+	at com.rapplogic.xbee.api.PacketParser.parsePacket(PacketParser.java:154)
+	at com.rapplogic.xbee.api.InputStreamThread.run(InputStreamThread.java:141)
+	at java.lang.Thread.run(Thread.java:680)
